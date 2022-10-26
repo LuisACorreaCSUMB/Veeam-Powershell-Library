@@ -1,5 +1,5 @@
 #Variables
-$Domain = Read-Host -Prompt 'Input the domain e.g. cmitsacreno or leverageitc'
+$Domain = Read-Host -Prompt 'Input the domain as such e.g. cmitsacreno or leverageitc'
 $Subsite = Read-Host -Prompt 'Input in the sharepoint site e.g. Advocacy'
 $Site = 'Https://' + $Domain + '-admin.sharepoint.com'
 #Empty Subsite means base site
@@ -72,4 +72,3 @@ While($Count -ne $TargetCount)
 }
 Write-Output 'Script ran Successfully.'
 cmd /c pause
-#Look at test case of doing one with no subsite
