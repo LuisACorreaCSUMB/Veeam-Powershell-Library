@@ -1,6 +1,6 @@
 #Variables
-$Domain = Read-Host -Prompt 'Input the domain as such e.g. cmitsacreno or leverageitc'
-$Subsite = Read-Host -Prompt 'Input in the sharepoint site e.g. Advocacy'
+$Domain = Read-Host -Prompt 'Input the domain as such'
+$Subsite = Read-Host -Prompt 'Input in the sharepoint subsite e.g. Advocacy'
 $Site = 'Https://' + $Domain + '-admin.sharepoint.com'
 #Empty Subsite means base site
 If ($Subsite -eq "")
