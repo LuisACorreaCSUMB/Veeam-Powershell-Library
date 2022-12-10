@@ -1,0 +1,3 @@
+Please utilize the NewActiveFull.ps1 when needing to create a new Active full for any sort of corruption.
+
+This script will be upgraded later to be able to run integrated with other scripts.

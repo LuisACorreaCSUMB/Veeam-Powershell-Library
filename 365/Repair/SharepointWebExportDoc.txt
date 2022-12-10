@@ -1,0 +1,7 @@
+Issue being diagnosed:  Cannot change WebPart ExportMode to ‘All’. WebPart will be skipped (WebPart ID: <guid>)
+
+These scripts will resolve the issue.
+
+If you want to be targeted on sites, please make a list of sites having the issue and use M365_Sharepoint_WebExportFix.ps1
+
+If you want to do all sites, please use M365_Sharepoint_WebExportFixAll.ps1

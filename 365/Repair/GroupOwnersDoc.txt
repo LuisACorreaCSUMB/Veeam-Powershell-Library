@@ -1,0 +1,5 @@
+Issue being diagnosed: Warning errors of no group owners in Microsoft 365 backups
+
+If you want to be targeted on groups, please make a list of groups having the issue and use M365_SetupGroupOwners_Single.ps1
+
+If you want to do all groups, please use M365_SetupGroupOwners_All.ps1

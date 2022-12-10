@@ -1,0 +1,8 @@
+Issue Being Targeted: Stuck M365 Backup jobs
+The script M365_AsyncJobs is for fixing 365 jobs where some part of the job is holding up the rest of the backup.
+If you notice the job being stuck, do the following.
+Stop the job
+Exclude the object that was getting stuck
+Create a separate job for that object and make it only those objects.
+Start the original job off so it can finish the needed backup.
+Run the M365_AsyncJobs.ps1 and input in the necessary Job Name. Case doesn't matter
