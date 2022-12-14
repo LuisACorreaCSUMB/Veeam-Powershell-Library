@@ -8,7 +8,7 @@ foreach ($site in $sites)
         Write-Output $site.DenyAddAndCustomizePages
         if ($site.DenyAddAndCustomizePages -eq 'Enabled')
         {
-            Set-SPOSite $site | -DenyAddAndCustomizePages
+            Set-SPOSite $Target -DenyAddAndCustomizePages 0
             Write-Output "Enabled Exports for $site"
         }
 
